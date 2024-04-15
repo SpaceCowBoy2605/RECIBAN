@@ -19,17 +19,33 @@ html {
 }
 
 .formulario {
-    margin-top: 10rem;
     background-color: var(--verde);
-    justify-content: center;
-    width: 20rem;
-    height: 10rem;
+    margin: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
 }
 
-.ingreso {
 
+
+.ingreso {
     display: grid;
-    grid-template-columns: repeat(2, .4fr);
-    margin-bottom: 15px;
+    justify-content: center;
+    grid-template-columns: repeat(2, .5fr);
+}
+
+.entrada {
+    padding: auto;
+    width: 50rem;
+    height: 2rem;
+}
+
+.enviar {
+    margin-left: 48rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
