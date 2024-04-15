@@ -1,0 +1,35 @@
+:root {
+    --blanco: #ffff;
+    --gris: #edeef0;
+    --verde: #00a82e;
+}
+
+html {
+    font-size: 120%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.formulario {
+    margin-top: 10rem;
+    background-color: var(--verde);
+    justify-content: center;
+    width: 20rem;
+    height: 10rem;
+
+}
+
+.ingreso {
+
+    display: grid;
+    grid-template-columns: repeat(2, .4fr);
+    margin-bottom: 15px;
+}
