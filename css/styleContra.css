@@ -2,6 +2,7 @@
     --blanco: #ffff;
     --gris: #edeef0;
     --verde: #00a82e;
+    --rojo: #FF0000;
 }
 
 html {
@@ -28,8 +29,6 @@ html {
 
 }
 
-
-
 .ingreso {
     display: grid;
     justify-content: center;
@@ -48,4 +47,17 @@ html {
     padding-right: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+/*mensaje de correo no valido con javaScipt*/
+
+.rojo {
+    pointer-events: auto;
+    color: var(--blanco);
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+    color: var(--rojo);
 }

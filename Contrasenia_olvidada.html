@@ -14,7 +14,7 @@
             Recupere su contraseña.
         </h1>
         <h2>
-            recupere su contraseña en caso de que la haya olvidado.
+            Recupere su contraseña en caso de que la haya olvidado.
         </h2>
     </center>
 
@@ -29,10 +29,14 @@
         <div class="ingreso">
             <p>Correo: </p>
             <input class="entrada" type="text" name="correo" id="correo">
+            <div>
+                <p class="rojo" id="falso">correo no valido</p>
+            </div>
         </div>
-        <button class="enviar">Enviar</button>
-
+        <a href="RecuperarContraseña.html">
+            <button id="send" class="enviar">Enviar</button></a>
     </div>
+    <script src="js/contrasenia.js"></script>
 
 </body>
 
