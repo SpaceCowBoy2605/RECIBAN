@@ -9,9 +9,7 @@ html {
     font-size: 120%;
     box-sizing: border-box;
     scroll-snap-type: y mandatory;
-
 }
-
 
 *,
 *::before,
@@ -20,40 +18,47 @@ html {
 }
 
 .formulario {
-    background-color: var(--verde);
-    margin: 5rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
 
+    text-align: center;
+    background-color: var(--verde);
+    width: 30rem;
+}
+
+.mensajePrin {
+    padding-top: 2rem;
+    text-align: center;
 }
 
 .ingreso {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, .5fr);
+    margin-top: 5rem;
 }
 
 .entrada {
-    padding: auto;
-    width: 50rem;
-    height: 2rem;
+    padding: 0%;
+    height: 1.5rem;
+    width: 20rem;
+}
+
+.DivBoton {
+    text-align: right;
+
 }
 
 .enviar {
-    margin-left: 48rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    border-radius: 5px;
+    width: 6rem;
+    padding: 1rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
 }
 
 /*mensaje de correo no valido con javaScipt*/
 
 .rojo {
     pointer-events: auto;
-    color: var(--blanco);
     opacity: 0;
 }
 
