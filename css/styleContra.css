@@ -11,6 +11,18 @@ html {
     scroll-snap-type: y mandatory;
 }
 
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
 *,
 *::before,
 *::after {
@@ -18,8 +30,8 @@ html {
 }
 
 .formulario {
-
     text-align: center;
+    border-radius: 1rem;
     background-color: var(--verde);
     width: 30rem;
 }
@@ -30,21 +42,22 @@ html {
 }
 
 .ingreso {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, .5fr);
-    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+
 }
 
 .entrada {
     padding: 0%;
-    height: 1.5rem;
-    width: 20rem;
+    height: 2rem;
+    width: 25rem;
 }
 
 .DivBoton {
     text-align: right;
-
 }
 
 .enviar {

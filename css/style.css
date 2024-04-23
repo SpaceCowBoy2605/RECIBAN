@@ -15,6 +15,18 @@ html {
     position: relative;
 }
 
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
 
 *,
 *::before,
@@ -34,7 +46,6 @@ html {
 
 .Contenido {
     background-color: var(--gris);
-
     width: 100%;
     height: auto;
     max-width: fit-content;

@@ -1,0 +1,79 @@
+:root {
+    --blanco: #ffff;
+    --gris: #edeef0;
+    --verde: #00a82e;
+    --rojo: #FF0000;
+    --negro: #0000;
+}
+
+html {
+    font-size: 120%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+img {
+    height: 5rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.tablero {
+
+    background-color: var(--verde);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenido {
+    margin: 1rem;
+    text-align: center;
+}
+
+.botones1 {
+    width: 6rem;
+    height: 2rem;
+    margin: 1rem;
+}
+
+.botones2 {
+    width: 15rem;
+}
+
+.contenido2 {
+    text-align: center;
+}
+
+.tabla {
+    margin: 1rem;
+    background-color: var(--gris);
+}
+
+.columnas {
+    width: 8rem;
+}
+
+.His {
+    margin-top: rem;
+
+    justify-content: 10rem;
+}

@@ -1,0 +1,46 @@
+:root {
+    --blanco: #ffff;
+    --gris: #edeef0;
+    --verde: #00a82e;
+    --rojo: #FF0000;
+    --negro: #0000;
+}
+
+html {
+    font-size: 120%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.formulario {
+    padding: 1rem;
+    background-color: var(--gris);
+}
+
+.boton {
+    padding-top: 1rem;
+}
+
+.boton1 {
+    border-radius: 1rem;
+    height: 3rem;
+    width: 5rem;
+}
