@@ -1,0 +1,45 @@
+:root {
+    --blanco: #ffff;
+    --gris: #edeef0;
+    --verde: #00a82e;
+    --rojo: #FF0000;
+    --negro: #0000;
+}
+
+html {
+    font-size: 120%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+img {
+    height: 5rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.tablero {
+
+    background-color: var(--verde);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -4,6 +4,7 @@
     --verde: #00a82e;
     --rojo: #FF0000;
     --negro: #0000;
+    --amarillo: #ffe859;
 }
 
 html {
@@ -22,10 +23,12 @@ a,
 button {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    border-radius: 10px;
 }
 
 img {
     height: 5rem;
+    border-radius: 10px;
 }
 
 *,
@@ -60,20 +63,56 @@ img {
 }
 
 .contenido2 {
+    margin: 1rem;
     text-align: center;
 }
 
 .tabla {
-    margin: 1rem;
+    margin: 2rem;
+    padding: 1rem;
     background-color: var(--gris);
 }
 
 .columnas {
-    width: 8rem;
+    width: 10rem;
 }
 
 .His {
     margin-top: rem;
-
     justify-content: 10rem;
+}
+
+.botonIcon {
+    background-color: transparent;
+
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: var(--blanco);
+    background-color: var(--verde);
+
 }
