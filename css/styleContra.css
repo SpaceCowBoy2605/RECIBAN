@@ -3,6 +3,7 @@
     --gris: #edeef0;
     --verde: #00a82e;
     --rojo: #FF0000;
+    --amarillo: #ffe859;
 }
 
 html {
@@ -21,6 +22,7 @@ a,
 button {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    text-decoration: none;
 }
 
 *,
@@ -66,7 +68,9 @@ button {
     padding: 1rem;
     margin-right: 3rem;
     margin-bottom: 1rem;
+    background-color: var(--amarillo);
 }
+
 
 /*mensaje de correo no valido con javaScipt*/
 

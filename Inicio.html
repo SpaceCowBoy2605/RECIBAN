@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -12,8 +14,8 @@
 </head>
 
 <body>
-    <!--tablero principal-->
     <div class="tablero">
+        |
         <img src="imagenes/logo.jpeg" alt="logo">
         <button class="botones1"><a href="#">Cargamentos</a></button>
         <button class="botones1"><a href="#">Productores</a></button>
@@ -37,46 +39,35 @@
                 <a href="#">Usuarios</a>
             </div>
         </div>
-    </div>
-    <!--aparatado de datos-->
-    <center>
-        <h1>Tu perfil</h1>
-    </center>
-    <div class="datos">
-        <div class="personal">
-            <div class="seccion1">
-                <p>Nombres</p>
-                <input type="text">
-                <p>Apellido paterno</p>
-                <input type="text">
-                <p>Apellido paterno</p>
-                <input type="text">
-                <p>Edad</p>
-                <input type="text">
-                <p>Telefono</p>
-                <input type="text">
-            </div>
-        </div>
-        <div class="direccion">
-            <h3>Direccion</h3>
-            <div class="seccion2">
-                <p>N° interior</p>
-                <input type="text">
-                <p>N° exterior</p>
-                <input type="text">
-                <p>Colonia</p>
-                <input type="text">
-                <p>C.P.</p>
-                <input type="text">
-            </div>
-        </div>
-    </div>
-    <div class="botones">
-        <Button class="color"><a href="ModificarUsuario.html">Modificar datos</a></Button>
-        <Button class="color"><a href="RecuperarContraseña.html">Cambiar contraseña</a></Button>
 
     </div>
-
+    <div class=" tabla">
+        <div class="contenido">
+            <button class="botones2">Cargamentos</button>
+            <button class="botones2">Registrar cargamento</button>
+            <button class="botones2">Estadisticas</button>
+        </div>
+        <center>
+            <div class="contenido2">
+                <input type="text">
+                <button class="md">Mofidicar</button>
+            </div>
+        </center>
+        <center>
+            <div class="tabla">
+                <table border="si">
+                    <tr>
+                        <td class="columnas">Id_cargamento</td>
+                        <td class="columnas">Id_Productor</td>
+                        <td class="columnas">Peso en toneladas</td>
+                        <td class="columnas">Porcentaje en humedad</td>
+                        <td class="columnas">fecha</td>
+                </table>
+                </tr>
+            </div>
+        </center>
+        <button class="His"><a href="#">Historial</a></button>
+    </div>
 </body>
 
 </html>
