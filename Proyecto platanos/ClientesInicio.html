@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/ClientesInicio.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="tablero">
+        <a href="Inicio.html"><img src="imagenes/logo.jpeg" alt="logo"></a>
+        <a href="Cargamentos.html"><button class="botones1">Cargamentos</button></a>
+        <a href="Productores.html"><button class="botones1">Productores</button></a>
+        <a href="SubProductos.html"><button class="botones1">SubProductos</button></a>
+        <a href="ClientesInicio.html"><button class="botones1">Clientes</button></a>
+        <a href="Ventas.html"><button class="botones1">Ventas</button></a>
+        <a href="Empleados.html"><button class="botones1">Empleados</button></a>
+        <div class="dropdown">
+            <button class="botonIcon"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-user-square" width="96" height="96" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M9 10a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M6 21v-1a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v1" />
+                    <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
+                </svg></button>
+            <div class="dropdown-content">
+                <a href="perfil.html">Perfil</a>
+                <a href="index.html">Cerrar sesion</a>
+                <a href="Usuario.html">Usarios</a>
+            </div>
+        </div>
+    </div>
+    <!--seccion de abajo-->
+    <div class="fondo">
+        <center>
+            <h1>Selecciona una accion.</h1>
+        </center>
+        <div class="seccion1">
+            <div class="agregar">
+                <p>Agregar cliente</p>
+                <a href="Clientes.html">
+                    <svg class="figura" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus"
+                        width="100" height="100" viewBox="0 0 24 24" stroke-width="3" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M12 5l0 14" />
+                        <path d="M5 12l14 0" />
+                    </svg>
+                </a>
+            </div>
+            <!--seccion de abajo-->
+            <div class="eliminar">
+                <p>Eliminar</p>
+                <a href="EliminarCliente.html">
+                    <svg class="figura" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-x"
+                        width="100" height="100" viewBox="0 0 24 24" stroke-width="3" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                        <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                        <path d="M10 12l4 4m0 -4l-4 4" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!--seccion de abajo-->
+        <div class="seccion2">
+            <div class="modificar">
+
+                <p>Modifcar clientes</p>
+                <a href="ModificarCliente.html">
+                    <svg class="figura" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil"
+                        width="100" height="100" viewBox="0 0 24 24" stroke-width="2.5" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                        <path d="M13.5 6.5l4 4" />
+                    </svg>
+                </a>
+            </div>
+            <!--seccion de abajo-->
+            <div class="consultar">
+                <p>Consultar</p>
+                <a href="ConsultarClientes.html">
+                    <svg class="figura" xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-file-check" width="100" height="100" viewBox="0 0 24 24"
+                        stroke-width="2.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                        <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                        <path d="M9 15l2 2l4 -4" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
